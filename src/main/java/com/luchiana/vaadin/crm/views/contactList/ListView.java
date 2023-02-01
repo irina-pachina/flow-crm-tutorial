@@ -1,7 +1,8 @@
-package com.luchiana.vaadin.crm.views.list;
+package com.luchiana.vaadin.crm.views.contactList;
 
 import com.luchiana.vaadin.crm.data.entity.Contact;
 import com.luchiana.vaadin.crm.data.service.CrmService;
+import com.luchiana.vaadin.crm.views.MainLayout;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.grid.Grid;
@@ -12,7 +13,7 @@ import com.vaadin.flow.data.value.ValueChangeMode;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 
-@Route(value = "")
+@Route(value = "contacts", layout = MainLayout.class)
 @PageTitle("Contacts | Vaadin CRM")
 public class ListView extends VerticalLayout {
     Grid<Contact> grid = new Grid<>(Contact.class);
@@ -22,7 +23,7 @@ public class ListView extends VerticalLayout {
 
     public ListView(CrmService service) {
         this.service = service;
-        addClassName("list-view");
+        addClassName("contactList-view");
         setSizeFull();
         configureGrid();
         configureForm();

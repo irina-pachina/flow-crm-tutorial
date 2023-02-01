@@ -1,4 +1,4 @@
-package com.luchiana.vaadin.crm.views.list;
+package com.luchiana.vaadin.crm.views.contactList;
 
 import com.luchiana.vaadin.crm.data.entity.Company;
 import com.luchiana.vaadin.crm.data.entity.Contact;
