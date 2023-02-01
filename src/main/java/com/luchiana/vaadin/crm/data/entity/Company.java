@@ -1,4 +1,4 @@
-package com.example.application.data.entity;
+package com.luchiana.vaadin.crm.data.entity;
 
 import java.util.LinkedList;
 import java.util.List;

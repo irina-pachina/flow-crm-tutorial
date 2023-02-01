@@ -1,4 +1,4 @@
-package com.example.application.data.entity;
+package com.luchiana.vaadin.crm.data.entity;
 
 import javax.persistence.Entity;
 
