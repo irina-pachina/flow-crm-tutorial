@@ -245,7 +245,6 @@
     "@vaadin/multi-select-combo-box": "$@vaadin/multi-select-combo-box",
     "@vaadin/tabsheet": "$@vaadin/tabsheet",
     "@vaadin/tooltip": "$@vaadin/tooltip",
-    "line-awesome": "$line-awesome",
     "@vaadin/board": "$@vaadin/board",
     "@vaadin/charts": "$@vaadin/charts",
     "@vaadin/cookie-consent": "$@vaadin/cookie-consent",
@@ -259,7 +258,8 @@
     "@vaadin/vaadin-crud": "$@vaadin/vaadin-crud",
     "@vaadin/vaadin-grid-pro": "$@vaadin/vaadin-grid-pro",
     "@vaadin/vaadin-rich-text-editor": "$@vaadin/vaadin-rich-text-editor",
-    "proj4": "$proj4"
+    "proj4": "$proj4",
+    "line-awesome": "$line-awesome"
   },
   "vaadin": {
     "dependencies": {
